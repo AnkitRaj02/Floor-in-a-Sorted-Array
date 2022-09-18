@@ -1,0 +1,23 @@
+class Solution:
+    #User function Template for python3
+    
+    #Complete this function
+    def findFloor(self,A,N,X):
+        a=[]
+        for i in range(0,len(A)):
+            if X in A and A[i]<=X:
+                val=A[i]
+                a.append(val)
+    
+            
+            elif X not in A and A[i]<=X:
+                val=A[i]
+                a.append(val)
+    
+        return(len(a)-1)
+        
+        if X not in A:
+            return -1
+        
+                
+                
